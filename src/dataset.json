@@ -1,0 +1,71 @@
+{
+    "init": {
+        "answers": [
+            {"content": "自転車の事を聞きたい", "nextId": "bicycle"},
+            {"content": "バイクの事を聞きたい", "nextId": "motorcycle"},
+            {"content": "絶景の話を聞きたい", "nextId": "view"},
+            {"content": "付き合いたい", "nextId": "dating"}
+        ],
+        "question": "こんにちは！何か聞きたいことがありますか？"
+    },
+    "bicycle": {
+        "answers": [
+            {"content": "サイクリングと通勤に使いたい", "nextId": "cycling"},
+            {"content": "自然を楽しみたい", "nextId": "nature"},
+            {"content": "みんなとは違った自転車に乗りたい", "nextId": "strange_bicycle"},
+            {"content": "その他の疑問", "nextId": "other"}
+        ],
+        "question": "使用用途を教えてください"
+    },
+    "cycling": {
+        "answers": [
+            {"content": "問い合わせる", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "舗装路を快適にスピードを楽しむならロードバイク、クロスバイクがおすすめです。\n機材選びで疑問があればこちらから。"
+
+    },
+    "nature": {
+        "answers": [
+            {"content": "問い合わせる", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "走破性の高さはMTBが一番です。\n街中も走るならハードテール、山がメインならフルサスがいいでしょう。\n特殊なMTBの事ならお問い合わせからお尋ねください"
+    },
+    "strange_bicycle": {
+        "answers": [
+            {"content": "問い合わせる", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "個性を出したい方なら、ファットバイク、リカンベント、ミニベロ等がおすすめです。\n他にも聞きたいことがあればお問い合わせからお尋ねください"
+    },
+    "other": {
+        "answers": [
+            {"content": "問い合わせる", "nextId": "contact"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "その他の疑問ですね。こちらからお尋ねください。"
+    },
+    "motorcycle": {
+        "answers": [
+            {"content": "エンデューロ系のレースってどういうの？", "nextId": "https://www.youtube.com/watch?v=K339L5wjVXs&t=369s"},
+            {"content": "色々な景色を知りたい", "nextId": "view"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "今はオフロードバイクに乗り、ツーリングやエンデューロ系レースに出たりしてバイク生活を楽しんでいますが、オンロードバイクにも乗って色々景色を楽しむツーリングをしていました。"
+    },
+    "view": {
+        "answers": [
+            {"content": "Instagramを見る", "nextId": "https://www.instagram.com/hukurou82/?hl=ja"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "あちこちにバイクで行ったり自転車で行ったりして、Instagramをあげているのでよろしければ(・∀・)ｲｲﾈ!!をお願いします！"
+    },
+    "dating": {
+        "answers": [
+            {"content": "DMする", "nextId": "https://www.instagram.com/hukurou82/?hl=ja"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "今度お食事でもどうですか？\nアウトドアやバイク、自転車の話ならたくさんできますよ(*'▽')"
+    }
+}
